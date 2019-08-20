@@ -6,8 +6,9 @@
 
 > Divide the children into groups such as the age difference between any 2 children is at most one year
 
-<p>**Naive Implementation** - Make all groups, check (maxAge - minAge), verify.<br>
-if number of children is <strong>n</strong>, the lower bound for running time is &#937;(2<sup>n</sup>)</p>
+**Naive Implementation** - Make all groups, check (maxAge - minAge), verify.
+
+<p>if number of children is <em>n</em>,  the lower bound for running time is &#937;(2<sup>n</sup>)</p>
 
 **Efficient Implementation** - Make a safe move, remove points covered by the safe move, repeat
 Implementation for grouping of children - select child of least age, Add 1 to age of child, Move all children in that range to a group, repeat
